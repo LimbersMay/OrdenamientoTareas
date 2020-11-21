@@ -57,7 +57,7 @@ def principal():
         # Ruta final en donde copiaremos el archivo del alumno
         Ruta_final = rutaAlumno + f"/{Alumno}" + f"/{tarea.title()}"
 
-        os.remove(Ruta_final)
+        shutil.copyfile(Ruta_original_tarea, Ruta_final)
         
 
         #Reiniciando el valor de todas las variables
