@@ -1,2 +1,2 @@
-Nombre grupo:Grupo
-Nombre tareas:Tareas
+Nombre grupo:nombre de la carpeta en donde se encuentra los grupos
+Nombre tareas:nombre de la carpeta en donde se encuentran las tareas
